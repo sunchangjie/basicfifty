@@ -8,18 +8,21 @@ package indi.jay.practice;
  */
 public class Practice01 {
 
-  public static int calculate(int monthNum){
-        // 逻辑
-
-        return 1;
+    public static int calculate(int monthNum) {
+        if (monthNum == 1 || monthNum == 2) {
+            return 1;
+        } else {
+            return calculate(monthNum - 1) + calculate(monthNum - 2);
+        }
     }
 
     public static void main(String[] args) {
-        // 月份数
-        int monthNum = 10;
-        // 兔子数量
-        int rabbitNum = calculate(monthNum);
-        System.out.println(rabbitNum);
+        // 输出1-10月份的兔子数量
+        for (int monthNum=1;monthNum<10;monthNum++){
+            // 兔子数量
+            int rabbitNum = calculate(monthNum);
+            System.out.println(rabbitNum);
+        }
     }
 
 
