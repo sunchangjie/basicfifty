@@ -2,7 +2,7 @@ package indi.jay.practice;
 
 /**
  * @ClassName : Practice1
- * @Description : 程序1不死神兔
+ * @Description : 不死神兔
  * @Author : Jay
  * @Date: 2020-02-24 18:33
  */
