@@ -8,12 +8,12 @@ package indi.jay.practice;
  */
 public class Practice05 {
 
-    static final String GRADEA = "A";
-    static final String GRADEB = "B";
-    static final String GRADEC = "C";
+    static final String GRADE_A = "A";
+    static final String GRADE_B = "B";
+    static final String GRADE_C = "C";
 
    public static String getGrade(int score){
-       return (score>=90)?GRADEA:((score>=60)?GRADEB:GRADEC);
+       return (score>=90)?GRADE_A:((score>=60)?GRADE_B:GRADE_C);
     };
 
     public static void main(String[] args) {
