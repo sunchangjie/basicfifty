@@ -9,7 +9,7 @@ package indi.jay.practice;
 public class Practice02 {
 
     public static boolean isPrime(int num) {
-        // 判断能不能被整除
+        // 判断 传入的num 能不能被 3到num之间 的数整除
         for (int j = 3; j < num; j++) {
             if (num % j == 0) {
                 return false;

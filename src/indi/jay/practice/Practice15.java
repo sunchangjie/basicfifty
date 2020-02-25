@@ -34,7 +34,7 @@ public class Practice15 {
             z = temp;
         }
 
-        System.out.println("从小到大依次是："+x+"，"+y+"，"+z);
+        System.out.println("从小到大依次是：" + x + "，" + y + "，" + z);
 
     }
 }

@@ -18,7 +18,7 @@ public class Practice01 {
 
     public static void main(String[] args) {
         // 输出1-10月份的兔子数量
-        for (int monthNum=1;monthNum<10;monthNum++){
+        for (int monthNum = 1; monthNum < 10; monthNum++) {
             // 兔子数量
             int rabbitNum = calculate(monthNum);
             System.out.println(rabbitNum);

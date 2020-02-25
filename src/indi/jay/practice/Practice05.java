@@ -12,9 +12,9 @@ public class Practice05 {
     static final String GRADE_B = "B";
     static final String GRADE_C = "C";
 
-   public static String getGrade(int score){
-       return (score>=90)?GRADE_A:((score>=60)?GRADE_B:GRADE_C);
-    };
+    public static String getGrade(int score) {
+        return (score >= 90) ? GRADE_A : ((score >= 60) ? GRADE_B : GRADE_C);
+    }
 
     public static void main(String[] args) {
 
